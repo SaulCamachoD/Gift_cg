@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid mb-5">
+        <div class="row top-cards">
+            {% for user in info_blogs %}
+            <div class="col-sm-4 mt-5">
+                <div class="border">
+                    <h5 class="text-info" hidden>{{user['name']|safe}}</h5>
+                    <div class="card-text blog-minicontent">{{ user['content']|safe }}</div>
+                    <a href="/show_blog" class="btn btn-info btn-md active mt-3" role="button" aria-pressed="true">Keep
+                        reading</a>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
+    </div>
+
+</body>
+
+</html

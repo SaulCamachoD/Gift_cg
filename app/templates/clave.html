@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url("/static/images/fondo-10.jpg");
+            background-size: cover;
+        }
+    </style>
+    <title>clave</title>
+</head>
+
+<body class="ui bg-black">
+    <div class="container">
+        <h1 class="title5">Te Felicito, superaste los 3 acertijos</h1>
+        <div class="ui two column centered grid">
+            <div class="column">
+                <div class="ui card" id="card1">
+                    <div class="content">
+                        <div class="center aligned header" id="title6">Esta es la clave del candado</div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <h1 class="title6">048</h1>
+                        </div>
+                    </div>
+                    <div class="ui divider"></div>
+                    <div  id="but1">
+                        <a href="/eleccion" class="ui button" id="but">Siguiente</a>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+        <a href="/texto">.</a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url("/static/images/fondo-3.jpg");
+            background-size: cover;
+        }
+
+        /* Agrega otros estilos personalizados aquí si los necesitas */
+    </style>
+    <title>Presentacion</title>
+</head>
+<body class="ui bg-black">
+    <div class="container">
+            <h1 class="title2a">Un placer tenerte aqui <b>{{user}}</b></h1>
+            <div class="ui divider"></div>
+            <h3 class="title3">Finalidad de esta pagina </h3>
+            <div class="mark">
+                <p class="texto2">
+                    Hola {{user}}, esta es una aplicación web que he desarrollado utilizando diversas tecnologías como Python, SQL, HTML, CSS, JavaScript y Flask. Además, se encuentra alojada en un dominio de AWS (Amazon Web Services), por lo que puedes acceder a ella en cualquier navegador.
+                </p>
+                <p class="texto2">
+                    En esta página encontrarás 3 acertijos; solo podrás acceder al siguiente cuando resuelvas el primero. Así uno tras otro, una vez los resuelvas todos, obtendrás el número de la clave que abre el candado del cofre que tienes en este momento.
+                </p>
+                
+                <p class="texto2">
+                    Al final de esta aplicación hay un texto para ti, pero antes de acceder a él, tienes que elegir si deseas leerlo. Esta página está inspirada en la poca información que tengo de ti, acerca de tus gustos o preferencias.
+                </p>
+                
+                <p class="texto2">
+                    Espero que la disfrutes y te entretengas solucionando cada acertijo, ten paciencia y si ves algún error, bug o tienes interrogantes no dudes en decírmelo. Otro gran motivo para la realización de esta página web es para recordar conocimientos previamente adquiridos y mejorar en varios temas de programación que se requieren para la realización de esta pagina.
+                </p>
+                
+                <p class="texto2">
+                    De antemano mil disculpas por los temas de diseño. En programación de páginas web hace referencia al CSS, no soy bueno en temas de combinación de colores o en posicionamiento, pero aún así espero que sea de tu agrado.
+                </p>
+            </div>
+            <div class="butthon1">
+                <a class="ui inverted black button" href="/acertijo_1/000/ac1">Iniciar <i class="right arrow icon" ></i></a>
+            </div>
+    </div>
+</body>
+</html>

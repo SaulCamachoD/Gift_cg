@@ -1,0 +1,356 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    background-color: black;
+}
+.container{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+
+.container1{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 3%;
+    background-color: #f3f3f366; 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgb(4, 81, 213);
+    border-radius: 8px;
+}
+
+.container4{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 768px) {
+    .container {
+      width: 100%; /* Cambiar el ancho al 100% para ocupar todo el contenedor */
+    }
+}
+
+#one > label {
+    text-align: left;
+    color: white;
+}
+
+#two{
+    display: flex;
+    width: 100%;
+    flex-direction: row; 
+    justify-content: flex-end;   
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title1{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title2a{
+    color: white;
+    margin: 3%;
+    text-align: center;
+    padding-top: 4%;
+}
+.title2b{
+    color: black;
+    margin: 3%;
+    text-align: center;
+}
+.title3{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+.title5{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title6{
+    text-align: center;
+    color: white;
+}
+#title6{
+    text-align: center;
+    color: white;
+}
+.texto2{
+    color: white;
+    text-align: justify;
+}
+.texto3{
+    text-align: justify;
+}
+.butthon1{
+    text-align: right;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.img_1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    opacity: 0.8;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img_2{
+    height: 65%;
+    width: 32%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    opacity: 0.5;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+#fondo{
+    background: transparent;
+    height: 100%;
+}
+
+.mark{
+    background-color: rgba(0, 0, 0, 0.40); 
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 1%;
+    padding: 2%;
+}
+
+.marka{
+    background-color: rgba(0, 0, 0, 0.40); 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 1%;
+    padding: 2%;
+    width: 500px;
+}
+.markb{
+    background-color: rgba(0, 0, 255, 0.40); 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 1%;
+    padding: 2%;
+    width: 500px;
+}
+.mark1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.center{
+    display: flex;
+    justify-content: end;
+}
+
+#but1{
+    width: 100%;
+}
+
+#but{
+    width: 50%;
+    margin: 5%;
+    position: relative;
+    left: 20%;
+}
+#registro-btn {
+    background-color: transparent;
+}
+#but1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+#but2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+#card1{
+    background-color: rgba(0, 0, 0, 0.40); 
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.button-3{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #0309bc;
+    color: ghostwhite;
+}
+
+button-3 span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+button-3:hover span {
+    color: white;
+}
+
+button-3::before,
+button-3::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+button-3::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button-3:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+
+.button-4{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #ba0508;
+    color: ghostwhite;
+}
+
+button-4 span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.8s;
+}
+
+button-4:hover span {
+    color: #000;
+}
+
+button-4::before,
+button-4::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+button-4::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button-4:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.endf{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5%;
+}
