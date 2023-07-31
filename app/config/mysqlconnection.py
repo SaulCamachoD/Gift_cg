@@ -1,15 +1,17 @@
 import pymysql.cursors
 
+
 class MySQLConnection:
     def __init__(self, db):
-        connection = pymysql.connect(host = 'localhost',
-                                    user = 'root', 
-                                    password = 'root', 
-                                    db = db,
-                                    charset = 'utf8mb4',
-                                    cursorclass = pymysql.cursors.DictCursor,
-                                    autocommit = True)
+        connection = pymysql.connect(host='localhost',
+                                    user='root',
+                                    password='P4ssW0rD',
+                                    db=db,
+                                    charset='utf8mb4',
+                                    cursorclass=pymysql.cursors.DictCursor,
+                                    autocommit=True)
         self.connection = connection
+
     def query_db(self, query, data=None):
         with self.connection.cursor() as cursor:
             try:
@@ -36,8 +38,7 @@ class MySQLConnection:
                 return False
             finally:
                 # close the connection
-                self.connection.close() 
-# this connectToMySQL function creates an instance of MySQLConnection, which will be used by server.py
-# connectToMySQL receives the database we're using and uses it to create an instance of MySQLConnection
+                self.connection.close()
+                
 def connectToMySQL(db):
     return MySQLConnection(db)
